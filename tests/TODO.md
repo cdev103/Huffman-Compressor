@@ -1,18 +1,21 @@
-# writebit done
+# TODO LIST
+
+
+## writebit done
 Build bit accumulation + automatic byte flushing.
-# frequency done
+## frequency done
 Read the input and produce counts[256].
-# heap
+## heap current
 Priority queue/min-heap for selecting the lowest-frequency nodes.
-# huffman
+## huffman
 Build the Huffman tree from the frequency table and generate codes.
-# encoder
+## encoder
 Use the Huffman codes + writebit to produce the compressed data.
-# File format design
+## File format design
 Decide how the tree/header, original size, padding, etc. are represented.
-# readbit
+## readbit
 Build the bit reader based on the format you've actually designed.
-# decoder
+## decoder
 Read the compressed file and reconstruct the original data.
-# Integration + testing
+## Integration + testing
 Compress → decompress → verify the result matches the original.
