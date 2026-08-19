@@ -5,7 +5,7 @@
 Build bit accumulation + automatic byte flushing.
 ## frequency done
 Read the input and produce counts[256].
-## heap current
+## min heap current
 Priority queue/min-heap for selecting the lowest-frequency nodes.
 ## huffman
 Build the Huffman tree from the frequency table and generate codes.
